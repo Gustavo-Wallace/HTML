@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head></head>
+
+    <h2> Marcação da Consulta </h2>
+
+    <fieldset>
+    <legend>Dados Pessoais</legend>
+
+    <form>
+        <label for="nome_completo">
+            Nome Completo:
+        </label><br>
+        <input type="text" id="nome_completo" name="nome_completo"><br><br>
+
+        <label for="cpf">
+            CPF:
+        </label><br>
+        <input type="text" id="cpf" name="cpf"><br><br>
+
+        <label for="data_nascimento">
+            Data de Nascimento:
+        </label><br>
+        <input type="date" id="data_nascimento" name="data_nascimento"><br><br>
+
+        <label for="endereco">
+            Endereço:
+        </label><br>
+        <input type="text" id="endereco" name="endereco"><br><br>
+
+        <label for="cep">
+            CEP:
+        </label><br>
+        <input type="text" id="cep" name="cep"><br><br>
+
+        <label for="email">
+            Email:
+        </label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="telefone">
+            Telefone:
+        </label><br>
+        <input type="text" id="telefone" name="telefone"><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados da Consulta</legend>
+
+            <label for="especialidade">Especialidade Médica</label><br>
+            <input type="radio" id="geral" name="especialidade" value="geral">
+            <label for="geral">Clínico Geral</label><br>
+
+            <input type="radio" id="pediatria" name="especialidade" value="pediatria">
+            <label for="pediatria">Pediatria</label><br>
+
+            <input type="radio" id="cardiologia" name="especialidade" value="cardiologia">
+            <label for="cardiologia">Cardiologia</label><br>
+
+            <input type="radio" id="dermatologia" name="especialidade" value="dermatologia">
+            <label for="dermatologia">Dermatologia</label><br><br>
+
+            <label for="data_consulta">
+                Data da Consulta:
+            </label><br>
+            <input type="date" id="data_consulta" name="data_consulta"><br>
+
+            <label for="hora_consulta">
+                Hora da Consulta:
+            </label><br>
+            <input type="time" id="hora_consulta" name="hora_consulta"><br><br>
+
+            <label>Medicamentos Alérgicos</label><br>
+            <input type="checkbox" id="antibiotico" name="antibiotico" value="antibiotico">
+            <label for="antibiotico">Antibióticos</label><br>
+            <input type="checkbox" id="antiinflamatorio" name="antiinflamatorio" value="antiinflamatorio">
+            <label for="antiinflamatorio">Anti-Inflamatórios</label><br>
+            <input type="checkbox" id="analgesicos" name="analgesicos" value="analgesicos">
+            <label for="analgesicos">Analgésicos</label><br><br>
+
+            <label for="informacoes">
+                Informações Adicionais:
+            </label><br>
+            <textarea name="informacoes" id="informacoes" rows="10" cols="30">
+            </textarea>
+        </fieldset>
+
+    </form>
+
+</html>
