@@ -1,0 +1,24 @@
+
+.tabuleiro {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.claro {
+  background-color: #EEEED2;
+  width: 80px;
+  height: 80px;
+}
+    
+.escuro {
+  background-color: #769656;
+  width: 80px; 
+  height: 80px;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+}
+
