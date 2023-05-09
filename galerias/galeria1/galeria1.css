@@ -1,0 +1,33 @@
+.galeria {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+.caixasE {
+    display: flex;
+    flex-direction:column;
+    width: 33%;
+    
+}
+
+.caixaE1 {
+    height: 365px;
+    background-color: #43c4b3;
+    border-style: solid;
+    margin: 1%;
+}
+
+.caixaE2 {
+    height: 365px;
+    background-color: #43c4b3;
+    border-style: solid;
+    margin: 1%;
+}
+
+.caixaD {
+    background-color: #24df52;
+    width: 66%;
+    height: 750px;
+    border-style: solid;
+}

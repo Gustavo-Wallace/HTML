@@ -1,0 +1,48 @@
+.header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.navigation {
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    padding: 90px;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content {
+    text-align: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.sidebar {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
