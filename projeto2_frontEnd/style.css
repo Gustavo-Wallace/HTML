@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+label {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 200px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  resize: vertical;
+}
+
+header {
+  background-color: #000000;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-left: 10px;
+}
+
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+#inicial {
+  text-align: center;
+}
+
+#galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+}
+
+#contato {
+  text-align: center;
+}
+
+
+#contato form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.noticias img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#blog h2 {
+  text-align: center;
+}
+
+.noticias p {
+  max-width: 500px;
+  text-align: left;
+}
+
+.noticias .complemento {
+  max-width: 680px;
+  text-align: left;
+}
+
+
+footer {
+  background-color: #000000;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo img {
+  height: 40px;
+}
+
+#mensagem {
+  resize: none;
+
+}
+
+.botao_enviar {
+  display: flex;
+  justify-content: center;
+}
+
+#banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  padding: 124px;
+  margin: 0;
+  font-size: 74px;
+}
+
+#banner p{
+  padding: 125px;
+  font-size: 34px;
+}
+
+.chamada {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: calc(47% - 20px); 
+  vertical-align: top;
+}
+
+.chamada img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
